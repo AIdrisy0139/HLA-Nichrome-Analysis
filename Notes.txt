@@ -1,0 +1,59 @@
+Integral transform between frequency and time, go both way
+Time = > Frequency
+Space => Spatial Frequency
+Basis becomes sins and cosines
+Change of basis into the frequency domain
+    - Similar to cartesian to polar, cylindrical
+    - Cos and Sin are mathematically perpinduclar [Orthogonal]
+Euler Identity used allows the writing of producs of sin and cos to be just cos
+Sin comonents integrate to 0
+Cos and sin to complex exponentials
+
+# Why do we care?
+Frequency coponents of the signal, most functions are composed of many diff freqs summed
+ - Fourier Series to aperiodic functions
+  - Decomp a function into freq components in fourier domain
+Fourier Domain allows for some easier maniuplations compared to the original domain (time domain)
+
+Example
+ - Sin wave = one frequence ( the frequency if the sine wave)
+ - A square = many different frequencies required 
+    -Square wave into its frequency components
+
+Taylor and Macularan are local approx [ Power Seires ]
+Foruier said infinte series of sin and cos approx globally (Fourier Seires)
+
+BASIS FUNCTIONS
+    -i j k cartesian basis
+    - Sin and cos also Orthogonal
+    -2 Basis vectors, but infintie basis functions
+        -Increment frequency of cos and sin
+        -Lets us get each frequency components
+    - More diff sins w/ diff freq = > more accurate approx
+    - Weighted sin and cos as well ( so how much of a certain frequency = find frequence and look at coef)
+    - Sin/cos are unitless = > freq components in freq Space
+    - All DE are solved using real + complex exp = > FT used to solve its
+    - FT w/ real exponents => LAPLACE transform
+
+HOW IT WAS DERIVED
+    - Start with approximating a function of period 2pi
+    - Generalized to any 2L periodic function (L= 2 and we go back)
+    - We can go between time and Space
+
+Integrate to get coeffs 
+Aperiodic function is thought of as a periodic function with infite period
+    -Delta W =0
+    - L - > 00
+    -No const term outside
+
+Rewrite function as cos integral, apply eulers - >complex integration
+
+Idea: How many 6Hz singals are in your current Singal? f(t)/6hz
+
+
+FREQUENCY DOMAIN/SPATIAL DOMAIN
+time(seconds) - > freq(hz)
+pos(m) - > freq(permeter)
+w= 2pi*(linear frequency)
+Spatial Freq, the distance that has passed between each thing
+    -Distance between 2 trees
