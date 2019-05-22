@@ -6,11 +6,13 @@ The goal was to test the heating curves of a nichrome wire done at small scale t
 ## Setup
 <img src="setup.jpg">
 Hall effect sensor and a thermocouple read into a Arduino 2560 whose Serial Out is put into a Laptop.
+
+
 ## Graphs
 <img src="Figure_1.png">
 <img src="RITvt.png">
 <img src="RIvt.png">
-<img src="Temps.pmg">
+<img src="Temps.png">
 
 
 ## Findings
